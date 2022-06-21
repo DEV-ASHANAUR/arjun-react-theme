@@ -1,0 +1,13 @@
+.brand_title{
+    font-weight: 600;
+    font-size: 1.875rem;
+    line-height: 1.688rem;
+    color: #7D7D7D;
+    margin-bottom: 1.25rem;
+}
+.brand_wrapper {
+	display: flex;
+	align-items: center;
+	gap: 1.25rem;
+    margin-bottom: 3.75rem;
+}

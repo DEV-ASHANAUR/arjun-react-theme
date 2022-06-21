@@ -1,0 +1,109 @@
+.service_wrapper{
+    margin-top: 4.375rem;
+    background: #CFD5F4;
+    /* margin-bottom: 4.375rem; */
+    position: relative;
+}
+.section_sub_title{
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 1.438rem;
+    color: #7D7D7D;
+    margin: 0;
+    padding-top: 3.75rem;
+    padding-bottom: 0.625rem;
+}
+/* service card */
+.second_row{
+    margin-top: 6.25rem;
+    margin-bottom: 4.063rem;
+}
+.service_card{
+    padding-top: 1.938rem;
+    padding-left: 1.563rem;
+    padding-right: 1.563rem;
+    padding-bottom: 1.5rem;
+    background-color: #FDFDFD;
+    border-radius: 0.938rem;
+    margin-bottom: 2.188rem;
+    transition: 0.3s;
+}
+.service_card:hover{
+    background: #5B82E4;
+}
+.service_card:hover .cardImage{
+    filter: invert(100%) sepia(0%) saturate(6090%) hue-rotate(147deg) brightness(1000%) contrast(112%);
+}
+.service_card:hover .cardTitle{
+    color: #ffffff;
+}
+.service_card:hover .cardShortDesc{
+    color: #FFF3F3;
+}
+.service_card:hover .serviceBtn{
+    border: 2px solid #B1B1B1;
+	background: none;
+	border-radius: 15px;
+	color: #FFFFFF;;
+}
+.service_card:hover .btnDot{
+	background: #E7EAF9;
+}
+.service_card:hover .arrowIcon{
+	filter: invert(35%) sepia(0%) saturate(1297%) hue-rotate(174deg) brightness(105%) contrast(82%);
+}
+.cardTitle{
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.188rem;
+    color: #323232;
+    margin: 0.625rem 0;
+}
+.cardShortDesc{
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.313rem;
+    color: #7D7D7D;
+    margin: 0;
+}
+.serviceBtn {
+	border: 2px solid #2948D4;
+	background: #FDFDFD;
+	border-radius: 15px;
+	color: #2948D4;
+	padding: 6px 11px;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 16px;
+	text-transform: capitalize;
+	display: flex;
+	align-items: center;
+	gap: 10px;
+    margin-top: 1.25rem;
+}
+.btnDot {
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background-color: #2948D4;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.arrowIcon {
+    width: 7px;
+}
+/* service Image */
+.image_wrapper{
+    max-width: 55%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+}
+.circleShape{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    z-index: -1;
+}
