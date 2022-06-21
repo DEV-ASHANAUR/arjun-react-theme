@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react'
+import React from 'react'
 import './project.css';
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -25,6 +25,7 @@ const Project = () => {
                   }}
                 pagination={{
                     clickable: true,
+                  
                 }}
                 modules={[Pagination,Navigation]}
                 className="projectSwipper"

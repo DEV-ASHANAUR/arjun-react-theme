@@ -35,6 +35,14 @@
 	width: 35px;
 	height: 5px;
 }
+/* .projectSwipper .swiper-pagination-bullet.swiper-pagination-bullet-active-prev {
+	background-color: #2948D4;
+    opacity: 1;
+}
+.projectSwipper .swiper-pagination-bullet.swiper-pagination-bullet-active-next {
+	background-color: #2948D4;
+    opacity: 1;
+} */
 .projectSwipper .swiper-pagination-bullet{
     width: 15px;
     height: 5px;
@@ -42,10 +50,10 @@
     transition: 0.3s;
 }
 
-.swiper-button-next::after, .swiper-button-prev::after {
+.projectSwipper .swiper-button-next::after, .swiper-button-prev::after {
 	font-size: 15px!important;
 }
-.swiper-button-next, .swiper-button-prev {
+.projectSwipper .swiper-button-next, .swiper-button-prev {
 	position: absolute;
 	top: 50%;
 	width: 40px!important;

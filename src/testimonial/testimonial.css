@@ -1,0 +1,69 @@
+.testimonial_wrapper {
+    background-color: #CFD5F4;
+    ;
+}
+
+.feedback_wrapper {
+	padding: 4.5rem 3.938rem;
+	background-color: #FDFDFD;
+	max-width: 1000px;
+	width: 100%;
+	margin:0 auto;
+	border-radius: 3.75rem 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 1.25rem;
+    
+}
+
+.client_review {
+    font-weight: 400;
+    font-size: 1.625rem;
+    line-height: 2.625rem;
+    text-align: center;
+    color: #000000;
+    margin: 0;
+}
+
+.client_name {
+    font-weight: 600;
+    font-size: 1.875rem;
+    line-height: 2.188rem;
+    text-align: center;
+    color: #323232;
+    margin: 0;
+}
+
+.designation {
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 1.438rem;
+    text-align: center;
+    color: #7D7D7D;
+    margin: 0;
+}
+.feedbackSwipper{
+    margin: 3.75rem 0;
+    /* padding-bottom: 60px; */
+    overflow: visible;
+    position: relative;
+}
+.barIcon {
+	position: absolute;
+	top: -1.5rem;
+}
+
+.feedbackSwipper .swiper-pagination-bullet.swiper-pagination-bullet-active {
+	background: #2948D4;
+	border-radius: 2.5px;
+	width: 2.188rem;
+	height: 5px;
+}
+.feedbackSwipper .swiper-pagination-bullet{
+    width: 0.938rem;
+    height: 5px;
+    border-radius: 2.5px;
+    transition: 0.3s;
+}
