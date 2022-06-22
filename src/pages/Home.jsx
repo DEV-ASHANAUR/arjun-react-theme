@@ -5,7 +5,8 @@ import Project from '../components/home/Project'
 import Navbar from '../components/navbar/Navbar'
 import Service from '../components/service/Service'
 import Trust from '../components/trust/Trust'
-import Testimonial from '../testimonial/Testimonial'
+import Testimonial from '../components/testimonial/Testimonial'
+import Blog from '../components/blog/Blog'
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
         <Service />
         <Project />
         <Testimonial />
+        <Blog />
     </div>
   )
 }

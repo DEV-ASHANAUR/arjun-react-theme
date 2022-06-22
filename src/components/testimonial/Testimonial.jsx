@@ -6,15 +6,15 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination } from "swiper";
-import barIcon from '../../src/img/testimonial/barImg.png';
-import roundImg1 from '../../src/img/testimonial/round1.png';
-import roundImg2 from '../../src/img/testimonial/round2.png';
-import roundImg3 from '../../src/img/testimonial/round3.png';
-import roundImg4 from '../../src/img/testimonial/round4.png';
-import roundImg5 from '../../src/img/testimonial/round5.png';
-import roundImg6 from '../../src/img/testimonial/round6.png';
-import roundImg7 from '../../src/img/testimonial/round7.png';
-import roundImg8 from '../../src/img/testimonial/round8.png';
+import barIcon from '../../img/testimonial/barImg.png';
+import roundImg1 from '../../img/testimonial/round1.png';
+import roundImg2 from '../../img/testimonial/round2.png';
+import roundImg3 from '../../img/testimonial/round3.png';
+import roundImg4 from '../../img/testimonial/round4.png';
+import roundImg5 from '../../img/testimonial/round5.png';
+import roundImg6 from '../../img/testimonial/round6.png';
+import roundImg7 from '../../img/testimonial/round7.png';
+import roundImg8 from '../../img/testimonial/round8.png';
 
 const Testimonial = () => {
 
