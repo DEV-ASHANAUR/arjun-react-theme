@@ -1,13 +1,13 @@
 .testimonial_wrapper {
-    background-color: #CFD5F4;
-    ;
+	background-color: #CFD5F4;
+	padding-bottom: 6.25rem;
 }
 
 .feedback_wrapper {
 	padding: 4.5rem 3.938rem;
 	background-color: #FDFDFD;
-	max-width: 1000px;
-	width: 100%;
+	/* max-width: 1000px;
+	width: 100%; */
 	margin:0 auto;
 	border-radius: 3.75rem 0;
 	display: flex;
@@ -45,10 +45,11 @@
     margin: 0;
 }
 .feedbackSwipper{
-    margin: 3.75rem 0;
+    padding: 3.75rem 0;
     /* padding-bottom: 60px; */
-    overflow: visible;
+    /* overflow: visible; */
     position: relative;
+    
 }
 .barIcon {
 	position: absolute;
@@ -66,4 +67,50 @@
     height: 5px;
     border-radius: 2.5px;
     transition: 0.3s;
+}
+.feedbackSwipper .swiper-horizontal > .swiper-pagination-bullets{
+	bottom: -3.5rem;
+
+}
+
+/* round image */
+.roundImg1 {
+	position: absolute;
+	top: 106px;
+	left: 40px;
+}
+.roundImg2 {
+	position: absolute;
+	top: 306px;
+	left: -50px;
+}
+.roundImg3 {
+	position: absolute;
+	top: 513px;
+	left: 40px;
+}
+.roundImg4 {
+	position: absolute;
+	top: 650px;
+	left: -50px;
+}
+.roundImg5{
+    position: absolute;
+	top: 106px;
+	right: 40px;
+}
+.roundImg6{
+    position: absolute;
+    top: 306px;
+	right: -50px;
+}
+.roundImg7{
+    position: absolute;
+    top: 513px;
+	right: 40px;
+}
+.roundImg8{
+    position: absolute;
+    top: 650px;
+	right: -50px;
 }
