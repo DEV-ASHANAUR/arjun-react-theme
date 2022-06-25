@@ -1,0 +1,133 @@
+.contact_wrapper {
+    background-image: url('../../img/conatct/contactBg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.form_wrapper {
+    background-image: url("../../img/conatct/formBg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 15px;
+    margin: 100px 0;
+}
+
+.form_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form {
+    width: 100%;
+    padding: 52px 116px;
+}
+
+.input_group {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.input_group label {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    /* text-align: center; */
+    color: #FFFFFF;
+}
+
+.input_group input {
+    height: 42px;
+    padding: 7px 20px;
+    border-radius: 10px;
+}
+
+.input_group input:focus {
+    outline: none;
+}
+
+.input_group textarea {
+    padding: 7px 20px;
+    border-radius: 10px;
+}
+
+.input_group input:focus {
+    outline: none;
+}
+
+.input_group input::placeholder {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #AFAFAF;
+    opacity: 1;
+}
+
+.input_group textarea::placeholder {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #AFAFAF;
+    opacity: 1;
+}
+
+.btn_wrapper {
+    margin-top: 20px;
+}
+
+.btn_wrapper>button {
+    padding: 15px 19px;
+    color: #2948D4;
+    background: none;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    border: 1.5px solid #2948D4;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+.btn_wrapper>button:hover {
+    color: #fff;
+    background: #2948D4;
+}
+.contact_info_wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 100%;
+	width: 100%;
+	padding: 52px 100px;
+}
+.contact_info_wrapper .section_sub_title{
+    padding-top: 0;
+}
+.call_us {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #4B4B4B;
+    margin: 15px 0;
+}
+
+.phone_number {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #323232;
+    margin: 0;
+}
+.social_wrapper{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 40px;
+}
