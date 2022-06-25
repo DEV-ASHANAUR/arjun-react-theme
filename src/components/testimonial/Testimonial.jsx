@@ -19,19 +19,19 @@ import roundImg8 from '../../img/testimonial/round8.png';
 const Testimonial = () => {
 
     return (
-        <div className="testimonial_wrapper mb-5">
+        <div className="testimonial_wrapper">
             <div className='container position-relative'>
                 <p className="section_sub_title text-center">Testimonial</p>
                 <h2 className="section_title text-center">Our <span className='heighlight'>Client</span> Feedback</h2>
                 {/* side Image  */}
-                <img src={roundImg1} alt="roundImg1" className='roundImg1' />
-                <img src={roundImg2} alt="roundImg2" className='roundImg2' />
-                <img src={roundImg3} alt="roundImg3" className='roundImg3' />
-                <img src={roundImg4} alt="roundImg4" className='roundImg4' />
-                <img src={roundImg5} alt="roundImg5" className='roundImg5' />
-                <img src={roundImg6} alt="roundImg6" className='roundImg6' />
-                <img src={roundImg7} alt="roundImg7" className='roundImg7' />
-                <img src={roundImg8} alt="roundImg8" className='roundImg8' />
+                <img src={roundImg1} alt="roundImg1" className='roundImg1 img-fluid' />
+                <img src={roundImg2} alt="roundImg2" className='roundImg2 img-fluid' />
+                <img src={roundImg3} alt="roundImg3" className='roundImg3 img-fluid' />
+                <img src={roundImg4} alt="roundImg4" className='roundImg4 img-fluid' />
+                <img src={roundImg5} alt="roundImg5" className='roundImg5 img-fluid' />
+                <img src={roundImg6} alt="roundImg6" className='roundImg6 img-fluid' />
+                <img src={roundImg7} alt="roundImg7" className='roundImg7 img-fluid' />
+                <img src={roundImg8} alt="roundImg8" className='roundImg8 img-fluid' />
                 {/* side Image  */}
                 <div className="row justify-content-center">
                     <div className="col-lg-9">

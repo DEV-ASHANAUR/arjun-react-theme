@@ -76,41 +76,41 @@
 /* round image */
 .roundImg1 {
 	position: absolute;
-	top: 106px;
-	left: 40px;
+	top: 6.625rem;
+	left: 2.5rem;
 }
 .roundImg2 {
 	position: absolute;
-	top: 306px;
-	left: -50px;
+	top: 19.125rem;
+	left: -3.125rem;
 }
 .roundImg3 {
 	position: absolute;
-	top: 513px;
-	left: 40px;
+	top: 32.063rem;
+	left: 2.5rem;
 }
 .roundImg4 {
 	position: absolute;
-	top: 650px;
-	left: -50px;
+	top: 40.625rem;
+	left: -3.125rem;
 }
 .roundImg5{
     position: absolute;
-	top: 106px;
-	right: 40px;
+	top: 6.625rem;
+	right: 2.5rem;
 }
 .roundImg6{
     position: absolute;
-    top: 306px;
-	right: -50px;
+    top: 19.125rem;
+	right: -3.125rem;
 }
 .roundImg7{
     position: absolute;
-    top: 513px;
-	right: 40px;
+    top: 32.063rem;
+	right: 2.5rem;
 }
 .roundImg8{
     position: absolute;
-    top: 650px;
-	right: -50px;
+    top: 40.625rem;
+	right: -3.125rem;
 }

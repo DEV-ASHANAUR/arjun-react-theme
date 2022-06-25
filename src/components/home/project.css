@@ -69,3 +69,20 @@
 	border-radius: 50%;
 	/* align-items: center; */
 }
+
+.projectSwipper .swiper-button-next, .swiper-button-next {
+	position: absolute;
+	top: 50%;
+	width: 40px!important;
+	height: 40px!important;
+	margin-top: calc(0px - (var(--swiper-navigation-size)/ 2));
+	z-index: 10;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #fff!important;
+	background: blue;
+	border-radius: 50%;
+	/* align-items: center; */
+}
