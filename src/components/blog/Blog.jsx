@@ -2,9 +2,8 @@ import React from 'react'
 import './blog.css';
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-import "swiper/css/pagination";
 import "swiper/css/navigation";
-import { Pagination, Navigation } from "swiper";
+import { Navigation } from "swiper";
 import cover1 from '../../img/blog/cover1.png';
 import profile1 from '../../img/blog/profile1.png';
 import cover2 from '../../img/blog/cover2.png';

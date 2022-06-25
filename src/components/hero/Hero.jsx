@@ -1,5 +1,6 @@
-import React,{useState} from 'react'
+import React, { useState } from 'react'
 import './hero.css';
+
 
 import heroImg from "../../img/hero/woman.png";
 import SentIcon from "../../img/hero/SentIcon.png";
@@ -10,12 +11,19 @@ import figma from '../../img/hero/Figma.png';
 import adxd from '../../img/hero/Adobexd.png';
 import Studio from '../../img/hero/OrigamiStudio.png';
 import Sketch from '../../img/hero/Sketch.png';
-
+import Player from '../player/Player';
 
 const Hero = () => {
+    const [open, setOpen] = useState(false);
+
+    //handleModalOpen
+    const handleModalOpen = () =>{
+        setOpen(true);
+    }
     return (
         <section className='hero_wrapper'>
             <div className="container">
+                <Player open={open} setOpen={setOpen} />
                 <div className="row">
                     <div className="col-lg-7">
                         <div className="heroLeft">
@@ -27,12 +35,13 @@ const Hero = () => {
                                     <input type="text" placeholder='@your mail' />
                                     <button><img src={SentIcon} /></button>
                                 </div>
-                                <a href="" className='demo'>
+                                <a  className='demo' onClick={handleModalOpen}>
                                     <span>See Live Demo</span>
                                     <div className="play_wrapper">
                                         <PlayArrowIcon className='playBtn' />
                                     </div>
                                 </a>
+                                
                             </div>
                         </div>
                     </div>

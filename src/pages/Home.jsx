@@ -10,6 +10,7 @@ import Blog from '../components/blog/Blog'
 import Contact from '../components/contact/Contact'
 import Contact_us from '../components/contact/Contact_us'
 import Footer from '../components/footer/Footer'
+import Player from '../components/player/Player'
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
         <Navbar />
         <Hero />
         <Trust />
+        <Player />
         <Category />
         <Service />
         <Project />
