@@ -9,6 +9,7 @@ import Testimonial from '../components/testimonial/Testimonial'
 import Blog from '../components/blog/Blog'
 import Contact from '../components/contact/Contact'
 import Contact_us from '../components/contact/Contact_us'
+import Footer from '../components/footer/Footer'
 
 const Home = () => {
   return (
@@ -23,6 +24,7 @@ const Home = () => {
         <Blog />
         <Contact />
         <Contact_us />
+        <Footer />
     </div>
   )
 }

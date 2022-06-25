@@ -1,0 +1,57 @@
+.footer_wrapper {
+    margin-top: 6.25rem;
+}
+
+.footer_title {
+    margin-bottom: 1.875rem;
+}
+
+.footer_title a {
+    font-weight: 700;
+    font-size: 1.375rem;
+    line-height: 1.625rem;
+    color: #0A0A0A;
+    text-decoration: none;
+}
+
+.footer_logo {
+    width: 9.625rem;
+}
+
+.footer_items a {
+    display: block;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 2rem;
+    color: #323232;
+}
+
+.footer_phone {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.438rem;
+    color: #323232;
+}
+
+.footer_country {
+    color: #2948D4 !important;
+}
+
+.footer_copyright {
+    background-color: #7D7D7D;
+    margin-top: 2.125rem;
+}
+
+.footer_copyright p {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.188rem;
+    padding: 5px 0;
+    /* identical to box height */
+    text-align: center;
+
+    color: #FFFFFF;
+    margin: 0;
+}

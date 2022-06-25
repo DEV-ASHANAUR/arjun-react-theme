@@ -1,33 +1,33 @@
 .contact_us_wrapper {
-    margin-top: 100px;
+    margin-top: 6.25rem;
     background: linear-gradient(180deg, #C3FCFE 41.93%, rgba(87, 73, 151, 0) 134.18%);
 }
 .contact_content_wrapper{
-    padding: 100px 0;
+    padding: 6.25rem 0;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 .contact_us_title {
     font-weight: 400;
-    font-size: 50px;
-    line-height: 59px;
+    font-size: 3.125rem;
+    line-height: 3.688rem;
     color: #323232;
     margin: 0;
-    margin-top: 10px;
+    margin-top: 0.625rem;
 }
 
 .contact_us_btn {
-    padding: 15px 20px;
+    padding: 0.938rem 1.25rem;
     background: none;
     border: 1.5px solid #2948D4;
-    border-radius: 30px;
+    border-radius: 1.875rem;
     font-weight: 600;
-    font-size: 20px;
-    line-height: 27px;
+    font-size: 1.25rem;
+    line-height: 1.688rem;
     color: #2948D4;
     transition: 0.3s;
-    margin-top: 30px;
+    margin-top: 1.875rem;
 }
 .contact_us_btn:hover {
     background: #2948D4;
