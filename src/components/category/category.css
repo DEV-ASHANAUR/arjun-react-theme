@@ -24,10 +24,11 @@
     justify-content: space-between;
     margin-bottom: 1.875rem;
 }
-.cat_info{
-    display: flex;
-    flex-direction: column;
-    gap: 0.938rem;
+.cat_info {
+	display: flex;
+	flex-direction: column;
+	gap: 0.938rem;
+	justify-content: center;
 }
 .cat_title{
     font-weight: 500;
@@ -54,5 +55,8 @@
     line-height: 1.188rem;
     color: #7D7D7D;
     margin: 0;
+}
+.category_logo{
+    width: 7.375rem;
 }
 

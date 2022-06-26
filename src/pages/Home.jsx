@@ -8,7 +8,7 @@ import Trust from '../components/trust/Trust'
 import Testimonial from '../components/testimonial/Testimonial'
 import Blog from '../components/blog/Blog'
 import Contact from '../components/contact/Contact'
-import Contact_us from '../components/contact/Contact_us'
+import ContactUs from '../components/contact/ContactUs'
 import Footer from '../components/footer/Footer'
 import Player from '../components/player/Player'
 
@@ -25,7 +25,7 @@ const Home = () => {
         <Testimonial />
         <Blog />
         <Contact />
-        <Contact_us />
+        <ContactUs />
         <Footer />
     </div>
   )

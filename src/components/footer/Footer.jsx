@@ -62,7 +62,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className="footer_copyright">
-                <p>©  2022 Copyright all right reserved - Sudipto</p>
+                <p>&copy; 2022 - web-themes. All rights reserved.</p>
             </div>
         </footer>
     )

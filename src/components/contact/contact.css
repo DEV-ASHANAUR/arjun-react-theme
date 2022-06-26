@@ -10,7 +10,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    border-radius: 15px;
+    border-radius: 0.938rem;
     margin: 6.25rem 0;
 }
 
@@ -21,30 +21,30 @@
 }
 
 .form {
-    width: 100%;
-    padding: 3.25rem 10.375rem;
+	width: 100%;
+	padding: 3.25rem 4.375rem;
 }
 
 .input_group {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    gap: 10px;
-    margin-bottom: 0.625rem;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	margin-bottom: 1.5rem;
 }
 
 .input_group label {
-    font-weight: 600;
-    font-size: 1.25rem;
-    line-height: 1.438rem;
-    /* text-align: center; */
-    color: #FFFFFF;
+	font-weight: 400;
+	font-size: 1rem;
+	line-height: 1.438rem;
+	color: #FFFFFF;
 }
 
 .input_group input {
-    height: 2.625rem;
-    padding: 0.438rem 1.25rem;
-    border-radius: 0.625rem;
+	height: 3rem;
+	padding: 0.5rem 1.25rem;
+	border-radius: 0.3rem;
+	border: none;
+	margin-top: 0.5rem;
 }
 
 .input_group input:focus {
@@ -54,6 +54,9 @@
 .input_group textarea {
     padding: 0.438rem 1.25rem;
     border-radius: 0.625rem;
+    border: none;
+    resize: none;
+    margin-top: 0.4rem;
 }
 
 .input_group input:focus {
@@ -82,16 +85,16 @@
     margin-top: 1.375rem;
 }
 
-.btn_wrapper>button {
-    padding: 15px 19px;
-    color: #2948D4;
-    background: none;
-    font-weight: 600;
-    font-size: 1.25rem;
-    line-height: 1.688rem;
-    border: 1.5px solid #2948D4;
-    border-radius: 1.875rem;
-    transition: 0.3s;
+.btn_wrapper > button {
+	padding: 0.938rem 2.125rem;
+	color: #2948D4;
+	background: none;
+	font-weight: 600;
+	font-size: 1.25rem;
+	line-height: 1.688rem;
+	border: 1.5px solid #2948D4;
+	border-radius: 1.875rem;
+	transition: 0.3s;
 }
 
 .btn_wrapper>button:hover {

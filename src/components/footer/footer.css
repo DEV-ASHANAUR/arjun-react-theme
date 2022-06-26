@@ -1,5 +1,5 @@
 .footer_wrapper {
-    margin-top: 6.25rem;
+    margin-top: 3.75rem;
 }
 
 .footer_title {
@@ -26,6 +26,9 @@
     line-height: 2rem;
     color: #323232;
 }
+.footer_items a:hover {
+    color: #2948D4 !important;
+}
 
 .footer_phone {
     font-style: normal;
@@ -41,17 +44,15 @@
 
 .footer_copyright {
     background-color: #7D7D7D;
-    margin-top: 2.125rem;
+    margin-top: 3.75rem;
 }
 
 .footer_copyright p {
     font-weight: 400;
     font-size: 1rem;
     line-height: 1.188rem;
-    padding: 5px 0;
-    /* identical to box height */
+    padding: 1rem 0;
     text-align: center;
-
     color: #FFFFFF;
     margin: 0;
 }

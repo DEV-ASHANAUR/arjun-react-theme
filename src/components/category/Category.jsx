@@ -15,37 +15,37 @@ const Category = () => {
     const catData = [
         {
             title: "Abobe Photoshop",
-            rating: 4.95 / 5,
+            rating: "4.95 / 5",
             project: 1853,
             logo: ps
         },
         {
             title: "Abobe XD",
-            rating: 4.77 / 5,
+            rating: "4.77 / 5",
             project: 1268,
             logo: xd
         },
         {
             title: "Sketch",
-            rating: 4.79 / 5,
+            rating: "4.79 / 5",
             project: 853,
             logo: sketch
         },
         {
             title: "Figma",
-            rating: 4.97 / 5,
+            rating: "4.97 / 5",
             project: 1437,
             logo: figma
         },
         {
             title: "InVision Studio",
-            rating: 4.67 / 5,
+            rating: "4.97 / 5",
             project: 505,
             logo: invision
         },
         {
             title: "Abobe illustrator",
-            rating: 4.87 / 5,
+            rating: "4.87 / 5",
             project: 968,
             logo: ai
         },
@@ -66,7 +66,7 @@ const Category = () => {
                                     <p className='cat_project'>{item.project} Projects</p>
                                 </div>
                                 <div className="cat_logo">
-                                    <img src={item.logo} alt="photoshop logo" />
+                                    <img src={item.logo} className="category_logo" alt="photoshop logo" />
                                 </div>
                             </div>
                         </div>

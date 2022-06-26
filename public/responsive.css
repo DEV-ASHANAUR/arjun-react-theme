@@ -7,8 +7,18 @@
         max-width: 1350px;
     }
 }
-@media (min-width: 1200px) { 
-	
+@media (min-width: 1200px) and (max-width: 1399px) { 
+	.container{
+		max-width: 1200px;
+	}
+	html{
+		font-size: 85%;
+	}
+}
+@media (min-width: 992px) and (max-width: 1199px) { 
+	html{
+		font-size: 70%;
+	}
 }
 
 @media (max-width: 1199px) { 

@@ -49,15 +49,15 @@ const Testimonial = () => {
 
                         >
                             {
-                                Array(4).fill(4).map(() => (
-                                    <SwiperSlide>
+                                Array(4).fill(4).map((value,i) => (
+                                    <SwiperSlide key={i}>
                                         <div className="feedback_wrapper">
                                             <img src={barIcon} alt="barIcon" className='barIcon' />
                                             <p className='client_review'>Pellentesque tincidunt tristique neque, eget venenatisenim gravida quis. Fusce at egestas libero.Cras convallis egestas ullamcorper.
                                                 Suspendisse sed ultricies nisl, pharetra rutrum mauris. Vestibulum at massa dui. Morbi et purus velit. Etiam tristique, justo eu condimentum
                                                 efficitur, purus velit facilisis sem, id fringilla tortor quam quis dolor.</p>
                                             <div className="rating">
-                                                <Rating name="read-only" value="5" readOnly />
+                                                <Rating name="read-only" value={5} readOnly />
                                             </div>
                                             <h3 className='client_name'>Tanvir hasan</h3>
                                             <p className='designation'>UI/UX Designer | Craqy Agency</p>

@@ -33,7 +33,7 @@ const Hero = () => {
                             <div className='demo_search_wrapper'>
                                 <div className="search_wrapper">
                                     <input type="text" placeholder='@your mail' />
-                                    <button><img src={SentIcon} /></button>
+                                    <button><img src={SentIcon} className="img-fluid sentImg" /></button>
                                 </div>
                                 <a  className='demo' onClick={handleModalOpen}>
                                     <span>See Live Demo</span>

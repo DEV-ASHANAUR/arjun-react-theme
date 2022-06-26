@@ -26,7 +26,7 @@ const Player = ({open,setOpen}) => {
             background: "rgba(0, 0, 0, 0.5)"
           },
           closeButton: {
-            background: "yellow"
+            background: "#2948D4"
           }
         }}
         classNames={{

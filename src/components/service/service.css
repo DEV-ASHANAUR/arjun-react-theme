@@ -41,9 +41,9 @@
     color: #FFF3F3;
 }
 .service_card:hover .serviceBtn{
-    border: 2px solid #B1B1B1;
+    border: 0.094rem solid #B1B1B1;
 	background: none;
-	border-radius: 15px;
+	border-radius: 0.938rem;
 	color: #FFFFFF;;
 }
 .service_card:hover .btnDot{
@@ -67,23 +67,23 @@
     margin: 0;
 }
 .serviceBtn {
-	border: 2px solid #2948D4;
+	border: 0.094rem solid #2948D4;
 	background: #FDFDFD;
-	border-radius: 15px;
+	border-radius: 0.938rem;
 	color: #2948D4;
-	padding: 6px 11px;
+	padding: 0.375rem 0.688rem;
 	font-weight: 600;
-	font-size: 14px;
-	line-height: 16px;
+	font-size: 0.875rem;
+	line-height: 1rem;
 	text-transform: capitalize;
 	display: flex;
 	align-items: center;
-	gap: 10px;
+	gap: 0.625rem;
     margin-top: 1.25rem;
 }
 .btnDot {
-	width: 20px;
-	height: 20px;
+	width: 1.25rem;
+	height: 1.25rem;
 	border-radius: 50%;
 	background-color: #2948D4;
 	display: flex;
@@ -91,7 +91,7 @@
 	justify-content: center;
 }
 .arrowIcon {
-    width: 7px;
+    width: 0.438rem;
 }
 /* service Image */
 .image_wrapper{

@@ -1,6 +1,6 @@
 import React from 'react'
-import './contact_us.css';
-const Contact_us = () => {
+import './contactUs.css';
+const ContactUs = () => {
     return (
         <div className='contact_us_wrapper'>
             <div className="container contact_content_wrapper">
@@ -14,4 +14,4 @@ const Contact_us = () => {
     )
 }
 
-export default Contact_us
+export default ContactUs
