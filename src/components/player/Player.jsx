@@ -2,11 +2,8 @@ import React,{useState} from 'react'
 import ReactPlayer from "react-player";
 import Modal from "react-responsive-modal";
 import './player.css';
-const Player = ({open,setOpen}) => {
+const Player = ({open,setOpen,videoUrl}) => {
 
-//   const {open, setOpen} = useState(false);
-  
-//   const onOpenModal = () => setOpen(true);
   const onCloseModal = () => setOpen(false);
 
   return (
@@ -38,9 +35,11 @@ const Player = ({open,setOpen}) => {
         center
       >
         <ReactPlayer
-          url="https://vimeo.com/291715535"
+          url={videoUrl}
           width="100%"
           height="calc(100vh - 100px)"
+          controls={true}
+          fallback={true}
         />
       </Modal>
     </>

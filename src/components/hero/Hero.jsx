@@ -15,7 +15,7 @@ import Player from '../player/Player';
 
 const Hero = () => {
     const [open, setOpen] = useState(false);
-
+    const videoUrl = "https://www.youtube.com/watch?v=n0JBqOis1pA";
     //handleModalOpen
     const handleModalOpen = () =>{
         setOpen(true);
@@ -23,7 +23,7 @@ const Hero = () => {
     return (
         <section className='hero_wrapper'>
             <div className="container">
-                <Player open={open} setOpen={setOpen} />
+                <Player open={open} setOpen={setOpen} videoUrl={videoUrl} />
                 <div className="row">
                     <div className="col-lg-7 col-md-10">
                         <div className="heroLeft">
@@ -41,7 +41,6 @@ const Hero = () => {
                                         <PlayArrowIcon className='playBtn' />
                                     </div>
                                 </a>
-                                
                             </div>
                         </div>
                     </div>

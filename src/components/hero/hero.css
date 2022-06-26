@@ -164,18 +164,21 @@
 	bottom: 20%;
 	left: -9%;
     filter: drop-shadow(0px 7px 30px rgba(26, 188, 254, 0.35)) drop-shadow(7px 0px 30px rgba(10, 207, 131, 0.35));
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
 
 .adxd {
     position: absolute;
     top: 18%;
     filter: drop-shadow(0px 7px 30px rgba(26, 188, 254, 0.35)) drop-shadow(7px 0px 30px rgba(10, 207, 131, 0.35));
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
 .Studio {
 	position: absolute;
 	bottom: 25%;
 	filter: drop-shadow(0px 7px 30px rgba(26, 188, 254, 0.35)) drop-shadow(7px 0px 30px rgba(10, 207, 131, 0.35));
 	right: -5.313rem;
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
 
 .Sketch {
@@ -183,5 +186,23 @@
     top: 14%;
     right: -0.75rem;
     filter: drop-shadow(0px 7px 30px rgba(26, 188, 254, 0.35)) drop-shadow(7px 0px 30px rgba(10, 207, 131, 0.35));
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+@-webkit-keyframes up-down{
+    0%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+}
+@keyframes up-down{
+    0%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(-10px);
+    }
 }
 
