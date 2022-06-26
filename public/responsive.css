@@ -99,7 +99,111 @@
 }
 
 /*Medium devices (tablets, 767px and down)*/
-@media (max-width: 767px) {}
+@media (max-width: 767px) {
+	html {
+		font-size: 75%;
+	}
+	.menu ul{
+		flex-direction: column;
+		padding: 0;
+	}
+	.menu ul li{
+		padding: 15px 0;
+	}
+	.menu ul li a{
+		display: inline-block;
+		width: 100%;
+	}
+	.menu {
+		position: fixed;
+		top: 0;
+		left: -100%;
+		background-color: #fff;
+		width: 100%;
+		height: 100%;
+		z-index: -1;
+		padding-top: 6rem;
+		transition: 0.4s;
+		padding-left: calc((100% - 540px) / 2 + 12px);
+		padding-right: calc((100% - 540px) / 2 + 12px);
+	}
+	.mobile-menu.menu{
+		left: 0;
+	}
+	.mobile.contact_btn{
+		margin-top: 20px;
+		display: block!important;
+	}
+	.contact_btn{
+		display: none;
+	}
+	.trigger{
+		display: block!important;
+		position: absolute;
+		cursor: pointer;
+		right: 0;
+	}
+	.trigger span{
+        transition: 0.3s ease;
+    }
+    .mobile-bar span:nth-child(1) {
+        transform: rotate(45deg) translate(7px, 4px);
+    }
+    .mobile-bar span:nth-child(3){
+        transform: rotate(-45deg) translate(7px, -5px);
+    }
+    .mobile-bar span:nth-child(2){
+        visibility: hidden;
+    }
+
+	.projectSwipper .swiper-slide.swiper-slide-active{
+		width: 40%!important;
+	}
+	.projectSwipper .swiper-slide.swiper-slide-prev,.projectSwipper .swiper-slide.swiper-slide-next{
+		width: 30%!important;
+	}
+	.projectSwipper .swiper-slide{
+		width: 30%!important;
+	}
+}
 
 /*Small devices (landscape phones, 575px and down)*/
-@media (max-width: 575px) {}
+@media (max-width: 575px) {
+	html {
+		font-size: 80%;
+	}
+	.menu {
+		padding-left: 12px;
+	}
+	.section_title {
+		font-size: 2.125rem!important;
+	}
+	/* hero section start */
+	.heading_two {
+		font-size: 2.375rem!important;
+	}
+	.demo>span{
+		display: none;
+	}
+	/* hero section end */
+	.contact_content_wrapper .section_title{
+		text-align: center;
+	}
+	.second_row {
+		margin-top: 0!important;
+		margin-bottom: 2.063rem;
+	}
+	.blog_title_short_desc {
+		font-size: 1.2rem!important;
+	}
+	.client_review {
+		font-size: 1.3rem!important;
+	}
+
+	.social_wrapper {
+		gap: .8rem!important;
+	}
+	.social_wrapper a > img {
+		height: 1.3rem!important;
+	}
+}

@@ -58,7 +58,7 @@ const Category = () => {
             <div className="row">
                 {
                     catData.map((item, i) => (
-                        <div className="col-lg-4 col-md-6" key={i}>
+                        <div className="col-lg-4 col-md-6 col-sm-6" key={i}>
                             <div className="cat_wrapper">
                                 <div className="cat_info">
                                     <h4 className='cat_title'>{item.title}</h4>

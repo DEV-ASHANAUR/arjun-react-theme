@@ -13,6 +13,19 @@
     justify-content: space-between;
     align-items: center;
     padding: 1.25rem 0;
+    position: relative;
+}
+.trigger{
+    display: none;
+}
+.trigger span {
+    width: 29px;
+    height: 3px;
+    background: #000;
+    display: block;
+}
+.trigger span:nth-child(2){
+    margin: 5px 0;
 }
 .logo a>img{
     width:8.75rem;
@@ -54,4 +67,7 @@
     color: #F5F5F5;
     font-size: 1.125rem;
     background-color: #2948D4;
+}
+.mobile.contact_btn{
+    display: none;
 }

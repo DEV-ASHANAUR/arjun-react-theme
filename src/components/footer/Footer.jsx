@@ -11,7 +11,7 @@ const Footer = () => {
         <footer className='footer_wrapper'>
             <div className="container">
                 <div className="row">
-                    <div className="col-lg-3 col-md-3">
+                    <div className="col-lg-3 col-md-3 col-sm-6 mb-3">
                         <div className="footer_title">
                             <a href="#"><img src={footerLogo} className="img-fluid footer_logo" alt="footer logo" /></a>
                         </div>
@@ -20,7 +20,7 @@ const Footer = () => {
                             <a href='#' className='footer_phone'>+01**** *******</a>
                         </div>
                     </div>
-                    <div className="col-lg-3 col-md-3">
+                    <div className="col-lg-3 col-md-3 col-sm-6 mb-3">
                         <div className="footer_title">
                             <a href="#">Service.</a>
                         </div>
@@ -32,7 +32,7 @@ const Footer = () => {
                             <a href='#'>Content Writter</a>
                         </div>
                     </div>
-                    <div className="col-lg-3 col-md-3">
+                    <div className="col-lg-3 col-md-3 col-sm-6 mb-3">
                         <div className="footer_title">
                             <a href="#">About Us.</a>
                         </div>
@@ -44,9 +44,10 @@ const Footer = () => {
                             <a href='#'>Plan & Pricing</a>
                         </div>
                     </div>
-                    <div className="col-lg-3 col-md-3"><div className="footer_title">
-                        <a href="#">Our Address.</a>
-                    </div>
+                    <div className="col-lg-3 col-md-3 col-sm-6 mb-3">
+                        <div className="footer_title">
+                            <a href="#">Our Address.</a>
+                        </div>
                         <div className="footer_items">
                             <a href='#'>Dhaka,</a>
                             <a href='#' className='footer_country'>Bangladesh</a>

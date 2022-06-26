@@ -44,8 +44,12 @@ const Blog = () => {
                 centeredSlides={false}
                 spaceBetween={30}
                 breakpoints={{
-                    640: {
-                      slidesPerView: 1,
+                    0: {
+                        slidesPerView: 1,
+                        spaceBetween: 20,
+                      },
+                    576: {
+                      slidesPerView: 2,
                       spaceBetween: 20,
                     },
                     768: {

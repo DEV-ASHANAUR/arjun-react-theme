@@ -1,6 +1,5 @@
 import React from 'react'
 import './service.css'
-import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import ServiceImage from '../../img/service/ServiceImage.png';
 import circleShape from '../../img/service/circleShape.png';
 import arrow from '../../img/service/arrow.svg';
@@ -17,7 +16,7 @@ const Service = () => {
                 <div className="row justify-content-end service_top">
                     <div className="col-lg-5">
                         <div className="row">
-                            <div className="col-lg-6 col-md-6">
+                            <div className="col-lg-6 col-md-6 col-sm-6">
                                 {/* first row start */}
                                 <div className="row">
                                     <div className="col-12">
@@ -49,7 +48,7 @@ const Service = () => {
                                 </div>
                                 {/* first row end */}
                             </div>
-                            <div className="col-lg-6 col-md-6">
+                            <div className="col-lg-6 col-md-6 col-sm-6">
                                 {/* second row start */}
                                 <div className="row second_row">
                                     <div className="col-12">
