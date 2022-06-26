@@ -1,7 +1,6 @@
 import React, { useEffect, useRef } from 'react'
 import './navbar.css';
 import logo from '../../img/logo.png';
-import { ContactsOutlined } from '@mui/icons-material';
 const Navbar = () => {
     const toggler = useRef(null);
     const menu = useRef(null);
@@ -23,13 +22,13 @@ const Navbar = () => {
         toggler.current.classList.toggle("mobile-bar");
         menu.current.classList.toggle("mobile-menu");
     }
-    
+
     return (
         <header className='header' ref={navbar}>
             <div className="container">
                 <div className="nav_wrapper">
                     <div className="logo">
-                        <a href="#"><img src={logo} alt="" /></a>
+                        <a href="#"><img src={logo} alt="logo" /></a>
                     </div>
                     <div className="menu" ref={menu}>
                         <ul>

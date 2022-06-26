@@ -1,4 +1,4 @@
-import React,{useState} from 'react'
+import React from 'react'
 import ReactPlayer from "react-player";
 import Modal from "react-responsive-modal";
 import './player.css';
@@ -39,7 +39,6 @@ const Player = ({open,setOpen,videoUrl}) => {
           width="100%"
           height="calc(100vh - 100px)"
           controls={true}
-          fallback={true}
         />
       </Modal>
     </>
