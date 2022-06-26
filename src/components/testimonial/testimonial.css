@@ -21,7 +21,7 @@
 .client_review {
     font-weight: 400;
     font-size: 1.625rem;
-    line-height: 2.625rem;
+    line-height: 1.6;
     text-align: center;
     color: #000000;
     margin: 0;
@@ -39,7 +39,7 @@
 .designation {
     font-weight: 600;
     font-size: 1.25rem;
-    line-height: 1.438rem;
+    line-height: 1.15;
     text-align: center;
     color: #7D7D7D;
     margin: 0;
@@ -53,7 +53,8 @@
 }
 .barIcon {
 	position: absolute;
-	top: -1.5rem;
+	top: -1.6rem;
+	width: 4.063rem;
 }
 
 .feedbackSwipper .swiper-pagination-bullet.swiper-pagination-bullet-active {

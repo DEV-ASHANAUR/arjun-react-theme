@@ -28,6 +28,9 @@
     margin-bottom: 2.188rem;
     transition: 0.3s;
 }
+.cardImage {
+	width: 2.25rem;
+}
 .service_card:hover{
     background: #5B82E4;
 }
@@ -62,7 +65,7 @@
 .cardShortDesc{
     font-weight: 400;
     font-size: 0.875rem;
-    line-height: 1.313rem;
+    line-height: 1.5;
     color: #7D7D7D;
     margin: 0;
 }

@@ -17,23 +17,23 @@
    
 }
 .projectSwipper{
-    height: 550px;
+    height: 34.375rem;
 }
 .projectSwipper .swiper-slide.swiper-slide-active img{
-	border: 1px solid blue;
+	border: 0.063rem solid blue;
 }
 
 .projectSwipper .swiper-slide img{
-    border: 1px solid #ddd;
+    border: 0.063rem solid #ddd;
 }
 .projectSwipper .swiper-slide img{
-    border-radius: 5px;
+    border-radius: 0.313rem;
 }
 .projectSwipper .swiper-pagination-bullet.swiper-pagination-bullet-active {
 	background: #2948D4;
-	border-radius: 2.5px;
-	width: 35px;
-	height: 5px;
+	border-radius: 0.156rem;
+	width: 2.188rem;
+	height: 0.313rem;
 }
 /* .projectSwipper .swiper-pagination-bullet.swiper-pagination-bullet-active-prev {
 	background-color: #2948D4;
@@ -44,9 +44,9 @@
     opacity: 1;
 } */
 .projectSwipper .swiper-pagination-bullet{
-    width: 15px;
-    height: 5px;
-    border-radius: 2.5px;
+    width: 0.938rem;
+    height: 0.313rem;
+    border-radius: 0.156rem;
     transition: 0.3s;
 }
 
@@ -56,8 +56,8 @@
 .projectSwipper .swiper-button-next, .swiper-button-prev {
 	position: absolute;
 	top: 50%;
-	width: 40px!important;
-	height: 40px!important;
+	width: 2.5rem!important;
+	height: 2.5rem!important;
 	margin-top: calc(0px - (var(--swiper-navigation-size)/ 2));
 	z-index: 10;
 	cursor: pointer;
@@ -73,8 +73,8 @@
 .projectSwipper .swiper-button-next, .swiper-button-next {
 	position: absolute;
 	top: 50%;
-	width: 40px!important;
-	height: 40px!important;
+	width: 2.5rem!important;
+	height: 2.5rem!important;
 	margin-top: calc(0px - (var(--swiper-navigation-size)/ 2));
 	z-index: 10;
 	cursor: pointer;

@@ -43,6 +43,20 @@ const Blog = () => {
                 slidesPerView={3}
                 centeredSlides={false}
                 spaceBetween={30}
+                breakpoints={{
+                    640: {
+                      slidesPerView: 1,
+                      spaceBetween: 20,
+                    },
+                    768: {
+                      slidesPerView: 2,
+                      spaceBetween: 20,
+                    },
+                    992: {
+                      slidesPerView: 3,
+                      spaceBetween: 30,
+                    },
+                  }}
                 hashNavigation={{
                     watchState: true,
                 }}

@@ -25,7 +25,7 @@ const Hero = () => {
             <div className="container">
                 <Player open={open} setOpen={setOpen} />
                 <div className="row">
-                    <div className="col-lg-7">
+                    <div className="col-lg-7 col-md-10">
                         <div className="heroLeft">
                             <p className='heading_one'><span className='line'></span><span>Best UI UX Design Agency</span></p>
                             <h2 className='heading_two'>Make Digital <span className='heighlight'>Product</span> with Our <span className='heighlight'>Agency</span></h2>
@@ -45,7 +45,7 @@ const Hero = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-5">
+                    <div className="col-lg-5 col-md-0">
                         <div className="heroRight">
                             <img src={figma} className="figma" alt='figma' />
                             <img src={adxd} className="adxd" alt='adxd' />

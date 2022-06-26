@@ -14,10 +14,10 @@ const Service = () => {
             <div className="container">
                 <p className="section_sub_title">Services</p>
                 <h2 className="section_title">Our <span className='heighlight'>Services</span></h2>
-                <div className="row justify-content-end">
+                <div className="row justify-content-end service_top">
                     <div className="col-lg-5">
                         <div className="row">
-                            <div className="col-lg-6">
+                            <div className="col-lg-6 col-md-6">
                                 {/* first row start */}
                                 <div className="row">
                                     <div className="col-12">
@@ -49,7 +49,7 @@ const Service = () => {
                                 </div>
                                 {/* first row end */}
                             </div>
-                            <div className="col-lg-6">
+                            <div className="col-lg-6 col-md-6">
                                 {/* second row start */}
                                 <div className="row second_row">
                                     <div className="col-12">

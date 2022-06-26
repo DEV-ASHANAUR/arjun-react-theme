@@ -21,7 +21,7 @@ const Navbar = () => {
             <div className="container">
                 <div className="nav_wrapper">
                     <div className="logo">
-                        <img src={logo} alt="" />
+                        <a href="#"><img src={logo} alt="" /></a>
                     </div>
                     <div className="menu">
                         <ul>

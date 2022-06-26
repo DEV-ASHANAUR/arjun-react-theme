@@ -1,50 +1,105 @@
 /*Extra large devices (large desktops, 1200px and up)*/
-@media (max-width: 1399px){
-	
+@media (max-width: 1399px) {}
+
+@media (min-width: 1400px) {
+	.container {
+		max-width: 1350px;
+	}
 }
-@media (min-width: 1400px) { 
-	.container{
-        max-width: 1350px;
-    }
-}
-@media (min-width: 1200px) and (max-width: 1399px) { 
-	.container{
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+	.container {
 		max-width: 1200px;
 	}
-	html{
+
+	html {
 		font-size: 85%;
 	}
 }
-@media (min-width: 992px) and (max-width: 1199px) { 
-	html{
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	html {
 		font-size: 70%;
 	}
 }
 
-@media (max-width: 1199px) { 
-	
+@media (max-width: 1199px) {
+	.hero_wrapper {
+		height: auto !important;
+		padding: 10.313rem 0;
+	}
+
+	.heroLeft {
+		height: auto !important;
+	}
+
+	.heroRight {
+		height: auto !important;
+	}
+
 }
 
 @media (max-width: 991px) {
-	#menu{
+	html {
+		font-size: 80%;
+	}
+	/* hero section */
+	.heroRight {
+		display: none !important;
+	}
+	/* hero section */
+	/* service section */
+	.image_wrapper {
+		display: none !important;
+	}
+	/* service section */
+	.service_top {
+		margin-top: 3.75rem !important;
+	}
+
+	/* testimonial round image */
+	.roundImg1 {
 		display: none;
 	}
 
-	.hamburger-menu {
-		display: block;
+	.roundImg2 {
+		display: none;
 	}
-	.ofcavas-menu {
-		display: block;
+
+	.roundImg3 {
+		display: none;
 	}
-	
+
+	.roundImg4 {
+		display: none;
+	}
+
+	.roundImg5 {
+		display: none;
+	}
+
+	.roundImg6 {
+		display: none;
+	}
+
+	.roundImg7 {
+		display: none;
+	}
+
+	.roundImg8 {
+		display: none;
+	}
+	/* testimonial round image */
+	/* contact page */
+	.contact_info_wrapper {
+		padding: 3.25rem 1.1rem!important;
+	}
+	/* contact page */
+
 }
 
 /*Medium devices (tablets, 767px and down)*/
-@media (max-width: 767px) {
-	
-}
+@media (max-width: 767px) {}
 
 /*Small devices (landscape phones, 575px and down)*/
-@media (max-width: 575px) {
-	
-}
+@media (max-width: 575px) {}

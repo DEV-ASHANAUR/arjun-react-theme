@@ -10,7 +10,7 @@ const Contact = () => {
     <div className='contact_wrapper'>
         <div className="container">
             <div className="row">
-                <div className="col-lg-6">
+                <div className="col-lg-6 col-md-6">
                     <div className="form_wrapper">
                         <div className="form">
                             <div className="input_group">
@@ -31,18 +31,18 @@ const Contact = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col-lg-6 d-flex">
+                <div className="col-lg-6 col-md-6 d-flex">
                     <div className="contact_info_wrapper">
                         <p className="section_sub_title">Contact US</p>
                         <h2 className="section_title">Let's Talk About Your<span className='heighlight'> Information</span></h2>
                         <p className='call_us'>Call us for immediate suport to this number</p>
                         <p className='phone_number'>+01**** *******</p>
                         <div className="social_wrapper">
-                            <a href="#"><img src={Instragram} alt="Instragram" /></a>
-                            <a href="#"><img src={facebook} alt="Instragram" /></a>
-                            <a href="#"><img src={Twiter} alt="Twiter" /></a>
-                            <a href="#"><img src={Crome} alt="Crome" /></a>
-                            <a href="#"><img src={Linkedin} alt="Linkedin" /></a>
+                            <a href="#"><img src={Instragram} alt="Instragram" className='img-fluid' /></a>
+                            <a href="#"><img src={facebook} alt="Instragram" className='img-fluid' /></a>
+                            <a href="#"><img src={Twiter} alt="Twiter" className='img-fluid' /></a>
+                            <a href="#"><img src={Crome} alt="Crome" className='img-fluid' /></a>
+                            <a href="#"><img src={Linkedin} alt="Linkedin" className='img-fluid' /></a>
                         </div>
                     </div>
                 </div>

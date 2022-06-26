@@ -107,7 +107,7 @@
 	justify-content: center;
 	height: 100%;
 	width: 100%;
-	padding: 3.25rem 6.25rem;
+	padding: 3.25rem 6.10rem;
 }
 .contact_info_wrapper .section_sub_title{
     padding-top: 0;
@@ -132,5 +132,8 @@
     display: flex;
     align-items: center;
     gap: 1.25rem;
-    margin-top: 2.5rem;
+    margin-top: 2.5rem;    
+}
+.social_wrapper a>img{
+    height: 1.75rem;
 }
